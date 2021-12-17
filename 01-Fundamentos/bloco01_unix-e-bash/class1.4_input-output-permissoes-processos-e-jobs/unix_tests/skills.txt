@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+DotNet
+JavaScript
+Python
+MySql
+Git
