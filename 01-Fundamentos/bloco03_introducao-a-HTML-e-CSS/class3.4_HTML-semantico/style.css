@@ -1,0 +1,47 @@
+header {
+    background-color: lightgreen;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 5px;
+    background-color: darkgray;
+    width: 100px;
+}
+
+.nav {
+    text-align: center;
+}
+
+.description, .article {
+    width: 400px;
+}
+
+.stomatopoda {
+    width: 250px;
+}
+
+
+.table {
+    margin-top: 30px;
+    border: solid 1px;
+    width: 200px;
+}
+
+td {
+    border: solid 1px;
+}
+
+.aside , .reference , .info , .footer{
+    margin-top: 40px;
+}
+
+.footer {
+    background-color: darkgray;
+    height: 40px;
+}
