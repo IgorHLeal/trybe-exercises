@@ -45,3 +45,8 @@ td {
     background-color: darkgray;
     height: 40px;
 }
+
+.button {
+    text-decoration: none;
+    color: black;
+}
