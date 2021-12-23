@@ -41,9 +41,13 @@ Utilizar a lógica de programação na resolução de problemas.
 `n = 5`
 
 `*****`
+
 `*****`
+
 `*****`
+
 `*****`
+
 `*****`
 
 
@@ -52,9 +56,13 @@ Utilizar a lógica de programação na resolução de problemas.
 `n = 5`
 
 `*`
+
 `**`
+
 `***`
+
 `****`
+
 `*****`
 
 
@@ -63,9 +71,13 @@ Utilizar a lógica de programação na resolução de problemas.
 `n = 5`
 
     `*`
+
    `**`
+
   `***`
+
  `****`
+
 `*****`
 
 Atenção! Note que esse exercício é bem mais complexo que o anterior! Não basta, aqui, imprimir somente asteriscos. Você precisará de uma lógica para imprimir espaços também.
@@ -76,7 +88,9 @@ Atenção! Note que esse exercício é bem mais complexo que o anterior! Não ba
 `n = 5`
 
   `*`
+
  `***`
+
 `*****`
 
 
@@ -87,8 +101,11 @@ Atenção! Note que esse exercício é bem mais complexo que o anterior! Não ba
 `n = 7`
 
    `*`
+
   `* *`
+
  `*   *`
+ 
 `*******`
 
 
