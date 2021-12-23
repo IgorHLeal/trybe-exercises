@@ -3,7 +3,7 @@
 HTML - Hyper Text Markup Language (Linguagem de marcação de texto);
        O HTML não é uma linguagem de programação;
 
-     - Ele é o esqueleto da página. É através do HTML que se cria a estrutura de como a página vai ser    exibida, definindo quais tags servirão para títulos, subtítulos, parágrafos, e outros conteúdos ricos como links, imagens, vídeos etc.
+     - Ele é o esqueleto da página. É através do HTML que se cria a estrutura de como a página vai ser exibida, definindo quais tags servirão para títulos, subtítulos, parágrafos, e outros conteúdos ricos comolinks, imagens, vídeos etc.
 
 - Observações: Utilizar a extensão `Live Server` no Vs Code para visualização da página web;
 
