@@ -5,6 +5,8 @@ Foram feitos exercícios para:
 - Adicionar e remover elementos HTML da página via JavaScript;
 - Buscar os elementos da página com a propriedade parentNode.
 
+Parte 1:
+
 - *1 - Adicione a tag `h1` com o texto `Exercício 5.2 - JavaScript DOM` como filho da tag `body`;*
 
 
