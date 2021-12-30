@@ -51,3 +51,14 @@ const thirdChild = childPrimeiroFilhoDoFilho.parentNode.parentNode.nextElementSi
 
 // PARTE 3 
 // Remova todos os elementos filhos de paiDoPai exceto pai, elementoOndeVoceEsta e primeiroFilhoDoFilho.
+const dadElement = document.querySelector('#pai');
+
+for (let index = dadElement.childNodes.length - 1; index >= 0; index -= 1) {
+    const currentElement = pai.childNodes[index];
+    if (currentElement.id !== 'elementoOndeVoceEsta') {
+        currentElement.remove();
+    }
+}
+
+const sonSecondAndLastSon = document.querySelector('#segundoEUltimoFilhoDoFilho');
+sonSecondAndLastSon.remove();
