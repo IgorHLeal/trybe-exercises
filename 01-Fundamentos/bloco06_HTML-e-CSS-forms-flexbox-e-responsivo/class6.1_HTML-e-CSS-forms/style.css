@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(93, 96, 99);
+    background-color: rgb(234, 237, 240);
+    font-size: 15px;
+    line-height: 2;
+}
+
+.form-header {
+    text-align: center;
+    background-color: rgb(246, 247, 248);
+    border: 1px solid rgb(214, 217, 220);
+    border-radius: 5px;
+    width: 70%;
+    margin: 40px 0;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-main {
+    background-color: rgb(246, 247, 248);
+    border: 1px solid rgb(214, 217, 220);
+    border-radius: 5px;
+    width: 70%;
+    margin: 40px 0;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
