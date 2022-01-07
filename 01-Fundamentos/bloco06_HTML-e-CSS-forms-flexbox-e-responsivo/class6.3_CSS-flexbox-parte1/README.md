@@ -18,22 +18,29 @@ A proposta do exercício era:
 ![Página](images/trybe-tech-gallery-header.jpeg)
 
 
+
 2 - Implemente o conteúdo da primeira section. Esta seção deverá conter no mínimo um elemento de texto. Utilizando Flexbox, faça o posicionamento de acordo com o exemplo abaixo:
-![Página](images/trybe-tech-gallery-header.jpeg)
+![Página](images/trybe-tech-gallery-text.jpeg)
+
 
 
 3 - Implemente o posicionamento da segunda section. Esta seção deverá conter no mínimo 6 imagens e um título para cada uma delas. Sinta-se livre para usar a imaginação e selecionar as imagens que preferir, só não esqueça de seguir a estrutura de posicionamento proposta. 
 ![Página](images/trybe-tech-gallery-cards.jpeg) 
 
 
+
 4 -Por fim, faça o posicionamento do footer/rodapé, este é o ultimo elemento necessário para que nossa aplicação fique completa. O rodapé deverá conter no mínimo 2 elementos. Para o exemplo, foram adicionadas imagens que redirecionam o usuário para as redes sociais da Trybe.
 ![Página](images/trybe-tech-gallery-footer.jpeg)
 
 
-Aqui está a imagem do resultado final:
+
+
+### Aqui está a imagem do resultado final:
 
 ![Página](images/trybe-tech-galery.png)
 
-E aqui está a imagem de como o projeto estava sem as alterações requisitadas:
+
+
+### E aqui está a imagem de como o projeto estava sem as alterações requisitadas:
 ![Página](images/inicial.png)
 
