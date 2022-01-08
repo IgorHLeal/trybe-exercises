@@ -79,9 +79,9 @@ function dateValidation (input, name){
         };
     }
 
-    let formatDate = /^\d\d\/\d\d\/\d\d\d\d$/;
+    let regex = /^\d\d\/\d\d\/\d\d\d\d$/;
     
-    if (!formatDate.test(input.value)){
+    if (!regex.test(input.value)){
         return {
             message: 'Data: Formato inválido'
         };
@@ -113,7 +113,45 @@ function getSelectedOption(select){
     return select.options[select.selectedIndex];
 }
 
+function selectValidation(select, name){
+    let option = getSelectedOption(select);
+    let validation = inputs[name];
 
+    if (validation.required && (!option || option.disabled)){
+        return false;
+    }
+
+    return true;
+}
+
+function radioValidation(radio, name){
+    let checked = document.querySelector('[name=${name}]:checked');
+
+    if (checked === null){
+        return false;
+    }
+
+    return true;
+}
+
+let validationStrategies = {
+    default: defaultValidation,
+    date: dateValidation,
+    select: selectValidation,
+    radio: radioValidation,
+}
+
+function validateInput(inputName){
+    let inputType = inputs[inputName].type;
+    let input = document.querySelector('[name=${inputName}]');
+
+    if (inputType){
+        let validationFunction = validationStrategies[inputType];
+        return validationFunction(input, inputName);
+    }
+
+    return validationStrategies.default(input, inputName);
+}
 
 /* function sumbmition (event) {
     event.preventDefault();
@@ -147,3 +185,5 @@ A coleção de opções retorna uma coleção de todos os elementos <option> em 
 
 /* 5 - selectedOptions() - https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/selectedIndex
 O HTMLSelectElement.selectedIndexé um longque reflete o índice do primeiro ou último <option>elemento selecionado , dependendo do valor de multiple. O valor -1indica que nenhum elemento está selecionado. */
+
+/* 6 - regex: https://medium.com/cwi-software/e-o-regex-como-vai-657f94388dc */
