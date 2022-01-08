@@ -16,7 +16,7 @@
     <main>
         <form action="" method="get" class="form-main" id="form-cv">
             <div class="form-row">
-                <fieldset>
+                <fieldset class="fieldset">
                     <div class="line-content">
                         <label for="name">Nome: </label>
                         <input type="text"
@@ -72,24 +72,30 @@
                             <option value="am">Amazonas</option> -->
                         </select>
                     </div>
-                    <div class="line-content">
-                        <label for="residence">Tipo de imóvel: </label>
-                        <input type="radio" 
+                    <div class="line-content residence">
+                        <div class="type-residence">
+                            <label for="residence">Tipo de imóvel: </label>
+                        </div>
+                        <div class="btn-residence">
+                            <input type="radio" 
                                name="residence"
                                id="house"
                                value="house"
                                required>
                                <span>Casa</span>
-                        <input type="radio"
+                        </div>
+                        <div class="btn-residence">
+                            <input type="radio"
                                name="residence"
                                id="apartament"
                                value="apartament"
                                required>
-                               <span>Aparamento</span>
+                               <span>Apartamento</span>
+                        </div>
                     </div>
                 </fieldset>
 
-                <fieldset>
+                <fieldset class="fieldset"> 
                     <div class="line-content">
                         <label for="resume-cv">Resumo do currículo: </label>
                         <textarea name="resume-cv"
@@ -123,8 +129,9 @@
                                required>
                     </div>
                 </fieldset>
-
-                <button class="submit-button" type="submit">Enviar</button>
+                <div class="submit-button-content">
+                    <button class="submit-button" type="submit">Enviar</button>
+                </div>
             </div>
         </form>
     </main>
