@@ -78,10 +78,10 @@ body {
     border-radius: 5px;
 }
 
-.submit-button {
+.submit-button, .clear-button {
     display: flex;
     justify-content: center;
-    width: 15%;
+    width: 120px;
     padding: 8px;
     font-weight: 700px;
     font-size: 16px;
@@ -91,8 +91,17 @@ body {
     background-color: rgb(220, 243, 220);
 }
 
-.submit-button-content {
+.button-content {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+}
+
+.input-data {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px;
 }
