@@ -15,7 +15,7 @@ html {
     padding: 20px;
   }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .container {
     flex-direction: column;
     padding: 20px;
@@ -25,19 +25,16 @@ html {
     width: 100%;
     display: flex;
     background-color: rgb(233, 233, 233);
-    justify-content: space-between;
+    font-size: 1.2rem;
+  }
+
+  header p {
+    width: 100%;
+    text-align: center;
   }
 
   nav {
-    display: flex;
-    align-items: center;
-    width: 40%;
-  }
-
-  nav li {
-    list-style: none;
-    display: inline-block;
-    margin-right: 15px;
+    display: none
   }
 
   h1 {
