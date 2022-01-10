@@ -1,7 +1,58 @@
 html {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
   
-  *, *:before, *:after {
-    box-sizing: inherit;
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: flex;
+  background-color: rgb(176, 243, 202);
   }
+
+  p {
+    padding: 20px;
+  }
+
+@media screen and (min-width: 600px) {
+  .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+    background-color: rgb(233, 233, 233);
+    justify-content: space-between;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    width: 40%;
+  }
+
+  nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .asides {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    margin-top: 20px;
+  }
+
+  .aside-one, .aside-two {
+    margin-left: 20px;
+  }
+}
