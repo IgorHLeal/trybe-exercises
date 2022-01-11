@@ -110,7 +110,7 @@ body {
   }
 
   #content {
-    width:80%;
+    width:90%;
     text-align: justify;
   }
 
@@ -123,8 +123,12 @@ body {
     align-self: flex-start;
   }
 
-  
-  
+  #navigation {
+    width: 100%;
+    margin-top: 10px;
+    margin: 0px;
+  }
+
   #navigation ul {
     display: flex;
     flex-direction: column;
@@ -139,9 +143,7 @@ body {
   
   #navigation li a {
     width: 100%;
-    padding: 5px 10px;
     color: #fff;
     text-decoration: none;
-    border-right: 1px solid #fff;
   }
 }
