@@ -9,7 +9,7 @@ function createStates(){
         states.appendChild(option);
     }
 }
-
+// Criar um objeto com todos os inputs para ser usado nas validações
 let inputs = {
     name: {
         maxLength: 40,
@@ -57,14 +57,20 @@ let inputs = {
     },
 }
 
+// Validação Padrão
 function defaultValidation(input, name){
     
+    // Remover espaços em branco no início e fim da string;
     let trimmed = input.value.trim(); 
+    
+    // Inserir em uma variável (validation) o valor a ser acessado no objeto "inputs" criado acima usando o parâmetro name como busca por chave;
     let validation = inputs[name];
 
+    // Verificar se um campo obrigatório está vazio ou não, checando se o valor na chave "required" dentro de "validation" é true e  se o número de caracteres é 0;
     if (validation.required && trimmed.length === 0){
         return false;
     }
+    // Verificar se o comprimento da string é maior que o permitido;
     if (validation.maxLength && trimmed.length > validation.maxLength){
         return false;
     }
@@ -72,26 +78,42 @@ function defaultValidation(input, name){
     return true;
 }
 
+
+// Validação da data
 function dateValidation (input, name){
+
+    // Verifica se a data tem ao menos um caracter ou não. Se não tiver, retornamos um objeto com a chave "message", que vai ter uma string explicitando que a data não foi preenchida;
     if (input.value.length === 0){
         return {
             message: 'A data não foi preenchida!'
         };
     }
 
+    // Usa expressão regular (regex) para validar se a data está de acordo com o que foi pedido;
+    //  Definimos uma expressão regular abrindo duas barras invertidas;
+    //  ^ : Configura o texto para ignorar quebras de linhas antes de qualqer caracter que digitarmos;
+    // \d : Representa que aquele campo deve ser preenchido com um número entre 0 e 9,999;
+    // / : Separa os campos de dia, mês e ano;
+    // $ : Sinaliza que nosso input não aceita quebras de linha dali em diante;
+
     let regex = /^\d\d\/\d\d\/\d\d\d\d$/;
     
+    // Fazer um if que vai usar o regex e executar a função test, que vai nos retornar true ou false de acordo com o conteúdo da string do argumento que for passado.
+    // ! : Operador de negação; Se o regex não estiver dentro dos padrões, a negação vai transformá-lo em true, entrar na condição e retornar uma mensagem de erro;
     if (!regex.test(input.value)){
         return {
             message: 'Data: Formato inválido'
         };
     }
 
+    // Caso o regex passe por fora do if, ele vai ser um array com 3 elementos dentro dele, que é a data do nosso input mas separada por "/". Isso vai acontecer graças a função split, que retorna um array cujos elementos são separados a cada vez que a string encontrar um caractere específico.
     let splitted = input.value.split('/');
     let day = splitted[0];
     let month = splitted[1];
     let year = splitted[2];
 
+
+    // verificar os valores de cada um dos elementos do array:
     if (day < 0 || day > 30){
         return {
             message: 'Dia inválido'
@@ -109,22 +131,30 @@ function dateValidation (input, name){
     }
 }
 
+
+// Validação dos selects
 function getSelectedOption(select){
     return select.options[select.selectedIndex];
 }
 
 function selectValidation(select, name){
+    //  Pegar a option selecionada;
     let option = getSelectedOption(select);
+    // Captar a chave que contém informações sobre a validação do input de selects;
     let validation = inputs[name];
 
+    // Se a opção for obrigatória e a opção selecionada estiver desabilitada ou não existir, a função vai retornar false;
     if (validation.required && (!option || option.disabled)){
         return false;
     }
 
+    // Se a informação passar por essa validação intacta, retorna true;
     return true;
 }
 
 function radioValidation(radio, name){
+    
+    // Capta o atributo checked do primeiro radio que tem o mesmo name passado por argumento nessa função;
     let checked = document.querySelector('[name=${name}]:checked');
 
     if (checked === null){
@@ -153,6 +183,8 @@ function validateInput(inputName){
     return validationStrategies.default(input, inputName);
 }
 
+
+// Caso haja algum dado inválido, mostre em uma <div> uma mensagem de erro.
 function renderErrorMessages(messages){
     let form = document.querySelector('#form-cv');
     let messageDiv = document.createElement('div');
@@ -167,7 +199,20 @@ function renderErrorMessages(messages){
     }
 }
 
-function defaulRendering(input){
+function defaultRendering(input){
+    let p = document.createElement('p');
+    let name = input.getAttribute('name');
+    let checked = document.querySelector(`[name=${name}]:checked`);
+
+    if (checked){
+        p.innerText = checked.value;
+    }
+
+    return p;
+}
+
+
+function radioRendering(input){
     let p = document.createElement('p');
     let name = input.getAttribute('name');
     let checked = document.querySelector(`[name=${name}]:checked`);
@@ -194,12 +239,113 @@ let renderStrategies = {
 }
 
 
+function renderData(){
+    let dataDiv = document.createElement('div');
+    dataDiv.className = 'data';
+
+    let form = document.querySelector('#form-cv');
+    form.prepend(dataDiv);
+
+
+    for (let name in inputs){
+        let input = document.querySelector(`[name=${name}]`);
+        let inputType = inputs[name].type;
+
+        let element;
+
+        if (renderStrategies[inputType]){
+            element = renderStrategies[inputType](input, dataDiv);
+        } else {
+            element = renderStrategies.default(input, dataDiv);
+        }
+
+        dataDiv.appendChild(element);
+    }
+}
+
+
+function validateData(){
+    let validationsList = {};
+
+    for (let inputName in inputs){
+        let isValid = validateInput(inputName);
+        validationsList[inputName] = isValid;
+    }
+
+    let count = 0;
+    let messages = [];
+
+    for (let index in validationsList){
+        if (validationsList[index] === false){
+            count += 1;
+        }
+
+        if (validationsList[index].message){
+            count += 1;
+            messages.push(validationsList[index].message);
+        }
+    }
+
+    return {
+        errorQtd: count,
+        messages,
+    }
+}
+
+
+function clearDivs(){
+    let errorDivs = document.querySelectorAll('.error');
+
+    for (let div of errorDivs){
+        div.remove();
+    }
+
+    let dataDiv = document.querySelector('.data');
+
+    if (dataDiv){
+        dataDiv.remove();
+    }
+}
+
+
+function handleSubmit(event){
+    event.preventDefault();
+
+    let validation = validateData();
+
+    clearDivs();
+
+    if (validation.errorQtd === 0){
+        renderData();
+    } else {
+        validation.messages.unshift('Dados Inválidos');
+
+        renderErrorMessages(validation.messages);
+    }
+}
+
+
+function clearFields(){
+    let formElements = document.querySelectorAll('input');
+    let textArea = document.querySelector('textarea');
+    let div = document.querySelectorAll('.div-curriculum');
+
+    for (let index = 0; index < formElements.length && index < div.length; index += 1){
+
+        let userInput = formElements[index];
+        userInput.value = '';
+        textArea.value = '';
+        div[index].innerText = '';
+    }
+}
+
+
 
 window.onload = function() {
     createStates();
 
     let submitButton = document.querySelector('.submit-button');
-    submitButton.addEventListener('click', sumbmition);
+    submitButton.addEventListener('click',handleSubmit);
 
     let clearButton = document.querySelector('.clear-button');
     clearButton.addEventListener('click', clearFields);
@@ -225,7 +371,8 @@ O HTMLSelectElement.selectedIndexé um longque reflete o índice do primeiro ou 
 
 /* 6 - regex: https://medium.com/cwi-software/e-o-regex-como-vai-657f94388dc */
 
-/* 7 - prepend: https://developer.mozilla.org/en-US/docs/Web/API/Element/prepend */
+/* 7 - prepend: https://developer.mozilla.org/en-US/docs/Web/API/Element/prepend 
+Insere um conjunto de Nodeobjetos ou DOMStringobjetos antes do primeiro filho do Element.*/
 
 /* 8 - `[name=${name}]:checked`: https://pt.stackoverflow.com/questions/320143/como-obter-o-valor-de-um-input-usando-o-atributo-name-javascript */
 
