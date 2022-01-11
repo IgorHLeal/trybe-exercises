@@ -143,7 +143,7 @@ let validationStrategies = {
 
 function validateInput(inputName){
     let inputType = inputs[inputName].type;
-    let input = document.querySelector('[name=${inputName}]');
+    let input = document.querySelector(`[name=${inputName}]`);
 
     if (inputType){
         let validationFunction = validationStrategies[inputType];
@@ -153,10 +153,47 @@ function validateInput(inputName){
     return validationStrategies.default(input, inputName);
 }
 
-/* function sumbmition (event) {
-    event.preventDefault();
+function renderErrorMessages(messages){
+    let form = document.querySelector('#form-cv');
+    let messageDiv = document.createElement('div');
+    messageDiv.className = 'error';
+    form.prepend(messageDiv);
 
-} */
+    for (let message of messages){
+        let p = document.createElement('p');
+        p.innerText = message;
+
+        messageDiv.appendChild(p);
+    }
+}
+
+function defaulRendering(input){
+    let p = document.createElement('p');
+    let name = input.getAttribute('name');
+    let checked = document.querySelector(`[name=${name}]:checked`);
+
+    if (checked){
+        p.innerText = checked.value;
+    }
+
+    return p;
+}
+
+function selectRendering(input){
+    let p = document.createElement('p');
+    let option = getSelectedOption(input);
+    p.innerText = option.value;
+
+    return p;
+}
+
+let renderStrategies = {
+    default: defaultRendering,
+    radio: radioRendering,
+    select: selectRendering,
+}
+
+
 
 window.onload = function() {
     createStates();
@@ -187,3 +224,8 @@ A coleção de opções retorna uma coleção de todos os elementos <option> em 
 O HTMLSelectElement.selectedIndexé um longque reflete o índice do primeiro ou último <option>elemento selecionado , dependendo do valor de multiple. O valor -1indica que nenhum elemento está selecionado. */
 
 /* 6 - regex: https://medium.com/cwi-software/e-o-regex-como-vai-657f94388dc */
+
+/* 7 - prepend: https://developer.mozilla.org/en-US/docs/Web/API/Element/prepend */
+
+/* 8 - `[name=${name}]:checked`: https://pt.stackoverflow.com/questions/320143/como-obter-o-valor-de-um-input-usando-o-atributo-name-javascript */
+
