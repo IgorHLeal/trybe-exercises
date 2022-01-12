@@ -2,7 +2,7 @@
 
 ### Exercícios
 
-Os exercícios do dia de hoje foram feitos através de um repositório privado disponibilizado pela [Trybe] (https://www.betrybe.com/);
+Os exercícios do dia de hoje foram feitos através de um repositório privado disponibilizado pela *[Trybe] (https://www.betrybe.com/)*;
 
 - As instruções para a relização estavam no README.
 - Foi utilizado o FlexBox na resolução dos exercícios (Conteúdo passado no dia de hoje);
