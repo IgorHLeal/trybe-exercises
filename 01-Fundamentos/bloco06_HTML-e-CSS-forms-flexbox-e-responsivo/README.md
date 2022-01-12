@@ -5,8 +5,19 @@
 *Nesse bloco aprendi sobre:*
 
     - Criar formulários em HTML com as tags : `input`, `button`, `textarea`, `select`, `form`.
-
-    - Adicionar e utilizar bibliotecas JavaScript e CSS em seus sites;
-
-    - Utilizar bibliotecas JavaScript externas a partir de uma CDN;
     
+    - Adicionar e utilizar bibliotecas JavaScript e CSS em meus sites;
+    
+    - Utilizar bibliotecas JavaScript externas a partir de uma CDN;
+
+    - Utilizar CSS Flexbox para criar layouts flexíveis;
+
+    - Utilizar CSS Flexbox para alterar o comportamento de containers;
+
+    - Utilizar CSS Flexbox para criar layouts flexíveis;
+
+    - Utilizar CSS Flexbox para alterar o comportamento de items;
+
+    - Criar regras CSS específicas para serem aplicadas a dispositivos móveis;
+
+    - Construir páginas que alteram o seu layout de acordo com a orientação da tela;

@@ -16,7 +16,7 @@
     <main>
         <form action="" method="get" class="form-main" id="form-cv">
             <div class="form-row">
-                <fieldset>
+                <fieldset class="fieldset">
                     <div class="line-content">
                         <label for="name">Nome: </label>
                         <input type="text"
@@ -42,10 +42,10 @@
                                required>
                     </div>
                     <div class="line-content">
-                        <label for="endereco">Endereço: </label>
+                        <label for="adress">Endereço: </label>
                         <input type="text"
                                name="adress"
-                               id="endereco"
+                               id="adress"
                                maxlength="200"
                                required>
                     </div>
@@ -63,36 +63,35 @@
                                 id="state"
                                 required>
                             <!-- Adicionar todos os estados via JavaScript -->
-                            <!-- <option value="mg">Minas Gerais</option>
-                            <option value="sp">São Paulo</option>
-                            <option value="rj">Rio de Janeiro</option>
-                            <option value="ba">Bahia</option>
-                            <option value="rs">Rio Grande do Sul</option>
-                            <option value="rn">Rio Grande do Norte</option>
-                            <option value="am">Amazonas</option> -->
                         </select>
                     </div>
-                    <div class="line-content">
-                        <label for="residence">Tipo de imóvel: </label>
-                        <input type="radio" 
+                    <div class="line-content residence">
+                        <div class="type-residence">
+                            <label for="residence">Tipo de imóvel: </label>
+                        </div>
+                        <div class="btn-residence">
+                            <input type="radio" 
                                name="residence"
                                id="house"
                                value="house"
                                required>
                                <span>Casa</span>
-                        <input type="radio"
+                        </div>
+                        <div class="btn-residence">
+                            <input type="radio"
                                name="residence"
                                id="apartament"
                                value="apartament"
                                required>
-                               <span>Aparamento</span>
+                               <span>Apartamento</span>
+                        </div>
                     </div>
                 </fieldset>
 
-                <fieldset>
+                <fieldset class="fieldset"> 
                     <div class="line-content">
-                        <label for="resume-cv">Resumo do currículo: </label>
-                        <textarea name="resume-cv"
+                        <label for="resume">Resumo do currículo: </label>
+                        <textarea name="resume"
                                   id="resume-cv"
                                   cols="30"
                                   rows="10"
@@ -107,27 +106,32 @@
                                required>
                     </div>
                     <div class="line-content">
-                        <label for="description-cargo">Descrição do cargo: </label>
+                        <label for="descriptionCargo">Descrição do cargo: </label>
                         <input type="text"
-                               name="description-cargo"
+                               name="descriptionCargo"
                                id="description-cargo"
                                maxlength="500"
                                required>
                     </div>
                     <div class="line-content">
                         <label for="data">Data de início: </label>
-                        <input type="date"
+                        <input type="text"
                                class="input-data"
                                name="data"
                                id="data"
                                required>
                     </div>
                 </fieldset>
-
-                <button class="submit-button" type="submit">Enviar</button>
+                <div class="button-content">
+                    <button class="submit-button" type="submit">Enviar</button>
+                </div>
+                <div class="button-content">
+                    <button class="clear-button" type="button">Limpar</button>
+                </div>
             </div>
         </form>
     </main>
+    <section class="form-data"></section>
     <script src="script.js"></script>
 </body>
 </html>
