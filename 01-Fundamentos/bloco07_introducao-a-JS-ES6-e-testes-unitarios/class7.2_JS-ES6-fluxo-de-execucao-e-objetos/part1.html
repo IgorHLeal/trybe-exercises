@@ -15,13 +15,53 @@
   <button id='button'>Somar</button>
   <p id='result'></p>
   <script>
+  /*   function verifica(value1, value2) {
+      if (!value1 || !value2) {
+        throw new Error ('Números inválidos! Por favor digite outros valores.');
+      }
+
+      if (isNaN(value1) || isNaN(value2)) {
+        throw new Error ('Informe apenas números.')
+      }
+    }
+
+    function sum() {
+      try {
+        const value1 = document.getElementById('value1').value;
+        const value2 = document.getElementById('value2').value;
+        verifica(value1, value2);
+        const result = parseInt(value1) + parseInt(value2);
+        document.getElementById('result').innerHTML = `Resultado: ${result}`;
+        console.log (result);
+        document.getElementById('value1').value = '';
+        document.getElementById('value2').value = '';
+      } catch (error) {
+        document.getElementById('result').innerHTML = `Erro: ${error.message}`;
+        document.getElementById('value1').value = '';
+        document.getElementById('value2').value = '';
+      }
+    } */
+    
+    function verificarNumero (value1, value2) {
+      if (!value1 || !value2) {
+        throw new Error ('Digite dois números para realizar a soma!');
+      }
+    }
+
     function sum() {
       const value1 = document.getElementById('value1').value;
       const value2 = document.getElementById('value2').value;
-      const result = parseInt(value1) + parseInt(value2);
-      document.getElementById('result').innerHTML = `Resultado: ${result}`;
-      document.getElementById('value1').value = '';
-      document.getElementById('value2').value = '';
+      const soma = parseInt(value1) + parseInt(value2);
+      try {
+        const result = document.getElementById('result').innerHTML = `Resultado: ${soma}`;
+        document.getElementById('value1').value = '';
+        document.getElementById('value2').value = '';
+      } catch (error) {
+        /* const erro = `Erro: ${error.message}`; */
+        const resultado = document.getElementById('result').innerHTML = `Erro:{error.message}`;
+        document.getElementById('value1').value = '';
+        document.getElementById('value2').value = '';
+      }
     }
     window.onload = () => {
       const button = document.getElementById('button');
