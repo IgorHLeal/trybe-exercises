@@ -13,7 +13,14 @@
     - Facilitar o desenvolvimento de libraries.
 
 
-Ao final do bloco tenho capacida de:
+2 - Fluxo de exceção:
+
+    - Como tratar erros do código utilizando os métodos `throw` e `try/catch`.
+
+    - Métodos como: Object.keys, Object.entries, Object.assign, Object.values; 
+
+
+Ao final do bloco tenho capacidade de:
 
 *- Utilizar corretamente let e const;*
 
@@ -22,3 +29,15 @@ Ao final do bloco tenho capacida de:
 *- Simplificar a construção de strings com template literals;*
 
 *- Criar expressões condicionais simplificadas com ternary operator.*
+
+*- Lançar erros com throw e capturá-los com o bloco try/catch;*
+
+*- Acessar todas as chaves de um objeto com o método Object.keys;*
+
+*- Acessar os pares chave-valor de um objeto com o método Object.entries;*
+
+*- Acessar todos os valores de um objeto com o método Object.values;*
+
+*- Copiar um objeto com o método Object.assign;*
+
+*- Adicionar propriedades a um objeto.*
