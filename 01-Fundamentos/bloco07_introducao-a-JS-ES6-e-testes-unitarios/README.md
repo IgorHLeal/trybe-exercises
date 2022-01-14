@@ -20,6 +20,11 @@
     - Métodos como: Object.keys, Object.entries, Object.assign, Object.values; 
 
 
+3 - Primeiros passos em Jest:
+
+    - Aprendi sobre testes unitários e também sobre como testar em pequenos passos;
+    
+
 Ao final do bloco tenho capacidade de:
 
 *- Utilizar corretamente let e const;*
@@ -41,3 +46,9 @@ Ao final do bloco tenho capacidade de:
 *- Copiar um objeto com o método Object.assign;*
 
 *- Adicionar propriedades a um objeto.*
+
+*- Entender o que são e para que servem testes unitários;*
+
+*- Aplicar o conceito de TDD, ou seja, o desenvolvimento orientado a testes;*
+
+*- Criar testes unitários a partir do framework Jest*.
