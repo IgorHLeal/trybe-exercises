@@ -23,5 +23,5 @@ const arrayOrder = numberSort(oddsAndEvens);
 console.log(`Os números ${arrayOrder} se encontram ordenados de forma crescente!`); // será necessário alterar essa linha 😉
 
 // Esta forma de resolução foi feita de acordo com o gabarito
-/* const oddsAndEvens = [13, 3, 4, 10, 7, 2];
-console.log(`Os números ${oddsAndEvens.sort((a, b) => a - b)} se encontram de forma ordenada`); */
+const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+console.log(`Os números ${oddsAndEvens.sort((a, b) => a - b)} se encontram de forma ordenada`);
