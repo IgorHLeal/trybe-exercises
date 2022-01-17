@@ -18,8 +18,30 @@ const lesson1 = {
     turno: 'noite',
   };
 
-  // Exercício 5
-  console.log(allLessons);
+// Exercício 1
+const turnoNoite = (objeto, chave, valor) => {
+  objeto[chave] = valor;
+}
+turnoNoite(lesson2, 'turno', 'noite');
+console.log(lesson2);
+
+// Exercício 2
+const listKeys = (object) => Object.keys(object);
+console.log(listKeys(lesson1));
+
+// Exercício 3
+const objectLength = (object) => Object.keys(object).length;
+console.log(objectLength(lesson2));
+
+// Exercício 4
+const values = (object) => Object.values(object);
+console.log(values(lesson3));
+
+// Exercício 5
+const allLessons = Object.assign({}, { lesson1, lesson2, lesson3 });
+
+
+console.log(allLessons);
 /*
 {
   lesson1:
@@ -40,7 +62,22 @@ const lesson1 = {
 };
 */
 
+// Exercício 6
+const totalStudents = (object) => {
+  let total = 0;
+  const keys = Object.keys(object);
+
+  for (let index = 0; index < keys.length; index += 1) {
+    const current = keys[index];
+    total += object[current].numeroEstudantes;
+  }
+  return total;
+}
+console.log(totalStudents(allLessons));
+
+
 // Exercício 7
+const getValueByNumber = (object, position) => Object.values(object)[position];
 console.log(getValueByNumber(lesson1, 0));
 // Output: 'Matématica'
 
