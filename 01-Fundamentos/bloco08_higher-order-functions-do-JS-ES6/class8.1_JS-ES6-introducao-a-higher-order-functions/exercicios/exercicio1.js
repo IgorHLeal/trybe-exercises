@@ -15,3 +15,10 @@ const newEmployees = (callback) => {
   };
 
   console.log(newEmployees(employeesFunction));
+
+
+  // ---------- Referências ----------
+
+  // https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
+  // https://www.w3schools.com/jsref/jsref_join.asp
+  // https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/split
