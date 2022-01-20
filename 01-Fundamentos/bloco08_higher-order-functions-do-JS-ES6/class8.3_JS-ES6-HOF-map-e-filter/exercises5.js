@@ -74,4 +74,3 @@ const fantasyOrScienceFictionAuthors = (newArray) => {
   return newArray.filter((book) => genres.includes(book.genre))
   .map((book) => book.author.name).sort();
 }
-console.log(fantasyOrScienceFictionAuthors(books));
