@@ -67,6 +67,12 @@ const expectedResult = [
 'O Chamado de Cthulhu',
 ];
 
-function oldBooks() {
-// escreva seu código aqui
-}
+// Mesma lógica do exercício 4
+const oldBooks = (bookYear) => {
+  const currentDate = new Date().getFullYear();
+
+  return bookYear.filter((years) => 
+  years.releaseYear < currentDate - 60).map((person) => person.name);
+} 
+
+console.log(oldBooks(books));
