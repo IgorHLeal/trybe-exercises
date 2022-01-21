@@ -63,6 +63,13 @@ const books = [
   
 const expectedResult = "George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.";
 
-function reduceNames() {
-// escreva seu código aqui
+const reduceNames = (names) => {
+  return names.reduce((acc, element, index, array) => {
+    if (index === array.length -1) return `${acc} ${element.author.name}.`;
+    return `${acc} ${element.author.name},`
+  }, '');
 }
+
+console.log(reduceNames(books));
+
+// Exercício resolvido na mentoria das 18:40 com a Aninha; 
