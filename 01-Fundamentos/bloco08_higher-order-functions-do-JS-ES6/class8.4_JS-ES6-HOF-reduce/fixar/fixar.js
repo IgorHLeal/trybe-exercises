@@ -94,3 +94,16 @@ const estudantes = [
     { name: 'Wilson', materia: 'Português' },
 ]
  */
+
+const verifyNote = ((nota, materia) => nota > materia) 
+
+/* const maiorNota = estudantes.map((estudante) => (
+    {
+        name: estudante.nome,
+        materia: estudante.materias.reduce((notaMaior,materia) => 
+        notaMaior.materias.nota > materia.materias.nota ? notaMaior.materias.nota : materia.materias.nota),
+    })
+)
+ const maiorNota = estudantes.reduce((notaMaior,materia) => 
+notaMaior.materias.nota > materia.materias.nota ? notaMaior.materias.nota : materia.materias.nota); 
+console.log(maiorNota); */
