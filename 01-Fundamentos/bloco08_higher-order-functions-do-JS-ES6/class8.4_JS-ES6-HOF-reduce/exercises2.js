@@ -67,4 +67,4 @@ const reduceNames = () => books.reduce((acc, element, index, array) => index ===
 
 console.log(reduceNames(books));
 
-// Exercício resolvido na mentoria das 18:40 com a Aninha; 
+// Exercício resolvido na mentoria das 18:40 com a Aninha;
