@@ -73,6 +73,5 @@ author: {
 releaseYear: 1991,
 };
 
-function longestNamedBook() {
-// escreva seu código aqui
-}
+const longestNamedBook = (book) => book.reduce((acc, current) => current.name.length > acc.name.length ? current : acc);
+console.log(longestNamedBook(books));

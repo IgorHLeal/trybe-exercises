@@ -1,10 +1,11 @@
-// 1 - Para fixar ainda mais conceito de reduce , faça uma função que some todos os números pares do array:
+// 1 - Para fixar ainda mais conceito de reduce, faça uma função que some todos os números pares do array:
 
 const numbers = [18, 19, 23, 53, 4, 5, 76, 23, 54];
 
-// Escreva o código aqui
+// Escreva o código aqui 
+const sumEven = () => numbers.reduce((acc, currrent) => currrent %2 === 0 ? acc + currrent : acc);
 
-
+console.log(sumEven(numbers));
 // 2- Agora crie uma função usando os dados dos estudantes que usamos no conteúdo do dia anterior, para mostrar na tela um relatório que diz em qual matéria o estudante foi melhor. Você usará tanto o map quanto, dentro dele, o reduce!
 
 const estudantes = [
@@ -95,7 +96,14 @@ const estudantes = [
 ]
  */
 
-const verifyNote = ((nota, materia) => nota > materia) 
+const verifyNote = ((acc, materia) => acc.nota > materia.nota ? acc : materia);
+
+const gradeReport = (students) => students.map((student) => ({
+  name: student.nome,
+  materia: student.materias.reduce(verifyNote).name
+}));
+
+console.log(gradeReport(estudantes));
 
 /* const maiorNota = estudantes.map((estudante) => (
     {
