@@ -96,7 +96,14 @@ const estudantes = [
 ]
  */
 
-const verifyNote = ((nota, materia) => nota > materia) 
+const verifyNote = ((acc, materia) => acc.nota > materia.nota ? acc : materia);
+
+const gradeReport = (students) => students.map((student) => ({
+  name: student.nome,
+  materia: student.materias.reduce(verifyNote).name
+}));
+
+console.log(gradeReport(estudantes));
 
 /* const maiorNota = estudantes.map((estudante) => (
     {
