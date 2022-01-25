@@ -11,3 +11,8 @@ const yearSeasons = {
     autumn: ['September', 'October', 'November'],
     winter: ['December', 'January', 'February'],
   };
+
+const array = { spring, summer, autumn, winter } = yearSeasons;
+const newArray = [...spring, ...summer, ...autumn, ...winter];
+
+console.log(newArray);
