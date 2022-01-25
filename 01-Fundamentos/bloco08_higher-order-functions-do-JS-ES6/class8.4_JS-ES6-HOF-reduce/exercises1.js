@@ -4,6 +4,6 @@ const arrays = [
   [4, 5, 6],
 ];
 
-function flatten() {
-  // escreva seu código aqui
-}
+const flatten = (newArray) => newArray.reduce((acc, element) => acc.concat(element));
+
+console.log(flatten(arrays));
