@@ -92,6 +92,6 @@ const expectedResult = [
 }
 ];
 
-function fantasyOrScienceFiction() {
-// escreva seu código aqui
-}
+const fantasyOrScienceFiction = (object) => object.filter((type) => type.genre === 'Fantasia' || type.genre === 'Ficção Científica');
+
+console.log(fantasyOrScienceFiction(books));

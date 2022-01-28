@@ -4,6 +4,7 @@ const names = [
     'Abeladerco', 'Adieidy', 'Alarucha',
   ];
   
-  function containsA() {
-    // escreva seu código aqui
-  }
+  const containsA = (book) => book.reduce((acc, curr) => acc + curr.split('').reduce((accumulator, current) => 
+  current === 'A' || current === 'a' ? accumulator + 1 : accumulator));
+
+  console.log(containsA(names));
