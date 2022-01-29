@@ -21,3 +21,7 @@
     - Criar regras CSS específicas para serem aplicadas a dispositivos móveis;
 
     - Construir páginas que alteram o seu layout de acordo com a orientação da tela;
+
+
+*Tendo isso em mente aqui você encontrará os exercícios que desenvolvi para fixar os aprendizados e o projeto TrybeWarts ao final do bloco para avaliar tudo o que havia aprendido.*
+*Esse projeto foi desevnvildo em trio para simular o dia-a-dia real no mercado de trabalho em uma empresa. Ele foi desenvolvido juntamente com os colegas de turma Almir Araújo e Eduardo Gomes. Você pode acessá-lo [aqui](https://github.com/tryber/sd-019-a-project-trybewarts/pull/59).*
