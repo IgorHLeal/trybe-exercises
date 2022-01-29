@@ -1,6 +1,6 @@
 ### Trybe
 
-Esse repositório foi feito para conter todos os exercícios feitos por *[Igor Leal] (https://www.linkedin.com/in/igorleal9296/)* ao longo do curso de desenvolvimento web na *[Trybe] (https://www.betrybe.com/)*.
+Esse repositório foi feito para conter todos os exercícios feitos por mim (*[Acesse aqui meu Linkedin](https://www.linkedin.com/in/igorleal9296/)*) ao longo do curso de desenvolvimento web na *[Trybe](https://www.betrybe.com/)*.
 
 *"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."*
 
