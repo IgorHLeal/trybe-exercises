@@ -1,6 +1,7 @@
 # Bloco 9 - JavaScript e Testes Assíncronos
 
 *Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/).*
+*Ao final desse bloco será encerrado o módulo de Fundamentos do Desenvolvimento Web.*
 
 *Nesse bloco aprendi sobre:*
 
