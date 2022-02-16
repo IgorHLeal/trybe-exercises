@@ -1,0 +1,9 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    background-color: rgb(41, 151, 41);
+    height: 50px;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+}
