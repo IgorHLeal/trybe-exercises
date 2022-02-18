@@ -17,3 +17,8 @@ Neste dia aprendi sobre:
 - *Utilizar PropTypes para checar que uma prop é um objeto de formato específico;*
 
 - *Utilizar PropTypes para garantir que uma prop é um array com elementos de um determinado tipo;*
+
+Ao final do dia realizei um exercício para colocar em pŕatica tudo o que foi aprendido, o resultado está na imagem abaixo: 
+
+![Página](images/my-pokedex.png)
+
