@@ -1,5 +1,8 @@
 import React, { Component } from "react";
-
+import Techs from "./Techs";
+import Idade from "./Idade";
+import Presenca from "./Presenca";
+import Infos from "./Infos";
 class Form extends Component {
   constructor() {
     super();
@@ -9,6 +12,7 @@ class Form extends Component {
       idade: 18,
       confirmarPresenca: false,
       informacoes: '',
+      formularioComErros: true,
     }
   }
 
@@ -25,55 +29,13 @@ class Form extends Component {
 
         <form className="form">
           <fieldset className='fieldset'>
-            <label>Selecione as tecnologias favoritas:
-              <select name='techs'
-                      value={this.state.techs}
-                      onChange={this.handleChange}
-              >
-                <option value='React'>React</option>
-                <option value='JavaScript'>JavaScript</option>
-                <option value='Python'>Python</option>
-                <option value='PHP'>PHP</option>
-                <option value='C#'>C#</option>
-                <option value='Java'>Java</option>
-              </select>
-            </label>
+            <Techs value={this.state.techs} handleChange={this.handleChange} />
 
+            <Idade value={this.state.idade} handleChange={this.handleChange} />
 
-            <label>Qual a sua idade?
-              <input 
-                type='number'
-                name='idade'
-                value={this.state.idade}
-                onChange={this.handleChange}
-                />
-            </label>
+            <Presenca value={this.state.confirmarPresenca} handleChange={this.handleChange} />
 
-            <label>Confirmar presença
-              <input
-                type='checkbox'
-                name='confirmarPresenca'
-                value={this.state.confirmarPresenca}
-                onChange={this.handleChange}
-              />
-            </label>
-
-            <fieldset className='infos'>
-              <label>Informações adicionais:
-                <textarea 
-                  name='informacoes'
-                  value={this.state.informacoes} 
-                  onChange={this.handleChange}
-                />
-              </label>
-            
-              <label>Upload de arquivo: 
-                <input 
-                  name='file'
-                  type='file'            
-                />
-              </label>
-            </fieldset>
+            <Infos value={this.state.informacoes} handleChange={this.handleChange} />
           </fieldset>
         </form>
       </div>
