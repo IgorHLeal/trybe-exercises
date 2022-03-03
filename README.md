@@ -94,7 +94,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 11.3: *Projeto - Tryunfo*
 
 ##### Bloco 12: Ciclo de Vida de Componentes e React Router
-- [ ] 12.1: *Ciclo de vida de componentes*
+- [x] 12.1: *Ciclo de vida de componentes*
 - [ ] 12.2: *React Router*
 - [ ] 12.3: *Projeto - TrybeTunes*
 
