@@ -13,3 +13,7 @@
 * Atualizar o estado de um componente;
 
 * Capturar eventos utilizando a sintaxe do React;
+
+* Criar formulários utilizando sintaxe JSX com as tags: `input`, `textarea`, `select`, `form`;
+
+* Transmitir informações de componentes filhos para componentes pais via callbacks;
