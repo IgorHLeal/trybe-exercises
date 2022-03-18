@@ -38,3 +38,25 @@ it('fetches a joke', async () => {
 });
 
 // ---------- Outra forma para realizar o teste ----------
+// Nesse caso estamos dizendo que o fetch é uma função mockada com jest.fn que retorna uma Promise, e na primeira vez que for resolvida, deve retornar um objeto com a função json que também é uma Promise, que quando resolvida retorna a piada
+
+/* afterEach(() => jest.clearAllMocks());
+
+it('fetches a joke', async () => {
+  const joke = {
+    id: '7h3oGtrOfxc',
+    joke: 'Whiteboards ... are remarkable.',
+    status: 200,
+  };
+
+  global.fetch = jest.fn(() => Promise.resolve({
+    json: () => Promise.resolve(joke),
+  }));
+
+  render(<App />);
+  const renderedJoke = await screen.findByText('Whiteboards ... are remarkable.');
+  expect(renderedJoke).toBeInTheDocument();
+  expect(global.fetch).toBeCalledTimes(1);
+  expect(global.fetch).toBeCalledWith('https://icanhazdadjoke.com/', { headers: { Accept: 'application/json' } });
+});
+ */
