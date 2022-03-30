@@ -1,43 +1,27 @@
-## Entendendo o infograma do mapStateToProps
+## Entendendo o infograma do connect
 
-![react-redux](images/map-State-To-Props-info.png)
+![react-redux](images/connect-info.png)
 
 ### Análise do passo a passo
-![mapStateToProps](images/map-State-To-Props.png)
-
-![mapStateToProps](images/map-State-To-Props-exp.png)
+![connect](images/connect.png)
 
 ### ⚠️ **AVISO IMPORTANTE:** A sua aplicação quebrará no primeiro momento ao executar o comando `npm start` conforme instrução abaixo. Seu objetivo é realizar as devidas implementações para a aplicação rodar corretamente.
 
 ```javascript
-cd missing_mapstatetoprops
+cd missing_connect
 npm install
 npm start
 ```
 
-Em src/App.js:
-- Foi retirado o mapStateToProps que recebe um objeto com as chaves receiveIngredients e receiveOrder;
-- Cada chave é uma props dentro de App.js e representam um estado da aplicação.
+Em src/App.js e src/components/RescuePeach.js foram retirados o export defaut connect()(), portanto, os componentes não são localizados e não recebem nenhum dado do Redux. 
 
-Em src/components/PrepareBurger.js:
-- Foi retirado o mapStateToProps que recebe um objeto com a chave receiveRecipe;
-- A chave é uma props dentro de PrepareBurger.js e representa um estado da aplicação.
-
-*Dica receiveIngredients: o nome do reducer é 'spiedIngredients' e a chave atualizada da action é 'ingredients'.*
-
-*Dica receiveOrder: o nome do reducer é 'spiedOrder' e a chave atualizada da action é 'order'.*
-
-*Dica receiveRecipe: o nome do reducer é 'spiedRecipe' e a chave atualizada da action é 'recipe'.*
-
-**Seu objetivo é configurar o mapStateToProps dos componentes App.js e PrepareBurger.js para que eles recebam o estado atualizado da aplicação.**
+**Seu objetivo é configurar o connect de acordo com a necessidade de cada componente, fazendo a aplicação funcionar com React-Redux.**
 
 **Referências:**
 
-- Imagem bobEsponja: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0e2f0bab-4518-4c60-a8d6-444eeef68485/dd56cw0-4ba5ce04-63ba-4369-8c8e-13bc3b3538fb.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMGUyZjBiYWItNDUxOC00YzYwLWE4ZDYtNDQ0ZWVlZjY4NDg1XC9kZDU2Y3cwLTRiYTVjZTA0LTYzYmEtNDM2OS04YzhlLTEzYmMzYjM1MzhmYi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.P37ofPgA8KVdnrbgO761nelbriOZMk2coJiYPW6tA6I;
-- Imagem bobEsponjaTela: https://i.pinimg.com/originals/2c/dc/15/2cdc15e420a51342f59cd645f4b17b36.jpg;
-- Imagem gary: https://static.wikia.nocookie.net/bubblestand/images/b/b2/GarytheSnail.png/revision/latest?cb=20200731043920;
-- Imagem hamburguer: https://upload.wikimedia.org/wikipedia/en/4/4c/Krabby_Patty.png;
-- Imagem patrick: https://static.wikia.nocookie.net/wikiesponja/images/d/d8/;Patrick_Estrela_de_Bob_Esponja.png/revision/latest?cb=20170325005037&path-prefix=pt-br
-- Gif plankton: https://images6.fanpop.com/image/photos/39700000/-plankton-sticker-spongebob-squarepants-39750396-500-500.gif;
-- Imagem siriCascudoUniforme: https://static.wikia.nocookie.net/spongebob/images/5/54/Krusty_Krab_hat_upright_stock_art.png/revision/latest?cb=20181228020634;
-- Imagem siriguejo: https://static.wikia.nocookie.net/wikiesponja/images/2/2d/Sr_Sirigueijo_de_Bob_Esponja.png/revision/latest/scale-to-width-down/340?cb=20170325000158&path-prefix=pt-br.
+- Imagem mario: https://pixy.org/src/149/1494229.png;
+- Imagem marioepeach: https://upload.wikimedia.org/wikipedia/it/1/12/Peach_Toadstool.png; https://pixy.org/download/1270955/;
+- Imagem peach: https://upload.wikimedia.org/wikipedia/sco/d/d5/Peach_%28Super_Mario_3D_World%29.png;
+- Imagem map: https://i.pinimg.com/originals/ee/64/0c/ee640c8170c171bd1c38ae1fc8f24736.png;
+- Imagem supermarioworld: https://static.wikia.nocookie.net/pai_troll/images/1/14/Super_Mario_World.png/revision/latest?cb=20200608204935&path-prefix=pt-br;
+- Gif thankyou: https://i.pinimg.com/originals/e2/dd/c8/e2ddc86e61bf14f62043f4509a25d19b.gif.
