@@ -1,0 +1,12 @@
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.pokedex-container {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 80%;
+    justify-content: center;
+}
