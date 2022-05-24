@@ -126,13 +126,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 17.4: *Projeto - StarWars Datatable com Context API e Hooks*
 
 ##### Bloco 18: Projeto App de Receitas
-- [ ] 18.1: *Projeto - App de Receitas*
+- [x] 18.1: *Projeto - App de Receitas*
 
 
-### Módulo 04 - Desenvolvimento Back-end
+### Módulo 03 - Desenvolvimento Back-end
 
 ##### Bloco 19: Introdução à SQL
-- [ ] 19.1: *Introdução - Back-end*
+- [x] 19.1: *Introdução - Back-end*
 - [ ] 19.1: *Introdução - Bancos de dados relacionais*
 - [ ] 19.1: *Banco de dados SQL*
 - [ ] 19.2: *Encontrando dados em um banco de dados*
