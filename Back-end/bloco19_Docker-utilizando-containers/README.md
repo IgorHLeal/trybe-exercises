@@ -31,6 +31,3 @@ _O que foi aprendido:_
   * _Criar arquivos Compose para gerenciar todo seu ambiente com Docker;_
 
   * _Gerenciar Services, Network e Volumes a partir do Compose;_
-
-  
-
