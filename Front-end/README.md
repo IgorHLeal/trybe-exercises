@@ -29,7 +29,7 @@
   - Trabalhar em projetos em grupo utilizando metodologias ágeis.
 
 
-<h2>Projetos entregues:</h2>
+<h2>Projetos realizados:</h2>
 
 - [x] _Projeto - Solar System — Nota: 100%_
 - [x] _Projeto - Tryunfo — Nota: 88,89%_
