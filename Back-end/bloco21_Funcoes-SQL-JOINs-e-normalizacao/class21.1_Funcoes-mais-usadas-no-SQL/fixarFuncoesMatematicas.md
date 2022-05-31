@@ -1,4 +1,4 @@
-<p>Comandos utilizados nos exercícios:</p>
+<h2>Comandos utilizados nos exercícios:</2>
 
   * `SELECT IF(15 MOD 2 = 0, 'Par', 'Ímpar') AS 'Par ou Ímpar';`
 
