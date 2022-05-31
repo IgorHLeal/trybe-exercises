@@ -1,4 +1,4 @@
-<p>Comandos utilizados nos exercícios:</p>
+<h2>Comandos utilizados nos exercícios:</h2>
 
   * `SELECT AVG(length) AS 'Média de Duração' FROM sakila.film;`
 

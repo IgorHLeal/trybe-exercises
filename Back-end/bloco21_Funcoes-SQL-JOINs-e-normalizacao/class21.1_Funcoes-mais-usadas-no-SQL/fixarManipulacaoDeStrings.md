@@ -1,4 +1,4 @@
-<p>Comandos utilizados nos exercícios:</p>
+<h2>Comandos utilizados nos exercícios:</p>
 
   * `SELECT UCASE('trybe');`
 

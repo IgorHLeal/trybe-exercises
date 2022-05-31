@@ -1,4 +1,4 @@
-<p>Comandos utilizados nos exercícios:</p>
+<h2>Comandos utilizados nos exercícios:</h2>
 
 * `SELECT DATEDIFF('2030-01-20', CURRENT_DATE());`
 
