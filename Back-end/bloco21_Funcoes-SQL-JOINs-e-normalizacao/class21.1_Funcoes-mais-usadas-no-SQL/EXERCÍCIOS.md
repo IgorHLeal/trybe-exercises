@@ -1,3 +1,5 @@
+<h2>Querys utilizadas em cada exerccício</h2>
+
 <p>Exercício 1:</p>
 
   `SELECT MAX(SALARY) FROM hr.employees;`
