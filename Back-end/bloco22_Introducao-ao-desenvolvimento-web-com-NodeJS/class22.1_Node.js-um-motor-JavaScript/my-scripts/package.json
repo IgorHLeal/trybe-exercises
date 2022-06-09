@@ -1,15 +1,15 @@
 {
-  "name": "exercicio-calculo-imc",
+  "name": "my-scripts",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "imc": "node imc.js"
   },
   "keywords": [],
-  "author": "igor-leal",
+  "author": "Igor Leal",
   "license": "ISC",
+  "description": "",
   "dependencies": {
     "readline-sync": "^1.4.10"
   }
