@@ -14,7 +14,7 @@ const getAll = async () => {
 
 const getByAuthorId = async () => {
   const query = 'SELECT * FROM model_example.books WHERE author_id=?;'
-  const [books] = await connection.execute(query, [authorId]);
+  const [books] = await connection.execute(query, [author_id]);
   return books.map(({ id, title, author_id }) => ({
     id,
     title,
