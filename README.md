@@ -4,7 +4,7 @@ Esse repositório foi feito para conter todos os exercícios feitos por mim (*[A
 
 *"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."*
 
-O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+O programa conta com mais de 1.500 horas de <<<<<<< HEADaulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
 É por aqui que vou acompanhar minha evolução e desenvolvimento. A cada reposiório e exercício uma nova experiência.
 
@@ -43,7 +43,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5.2: *JavaScript - *Trabalhando com elementos*
 - [x] 5.3: *JavaScript - Eventos*
 - [x] 5.4: *JavaScript - Web Storage*
-- [x] 5.5: *Fundamentos - JavaScript - Projetos*
+- [x] 5.5: *Fundamentos - JavaScript - Proje<<<<<<< HEADtos*
 - [x] 5.5: *Projeto - Arte com Pixels*
 - [x] 5.6: *Projeto - Lista de tarefas*
 - [ ] 5.7: *(Bônus) Projeto - Meme Generator*
@@ -62,9 +62,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
 - [x] 7.1: *JavaScript ES6 - let, const, arrow functions e template literals*
 - [x] 7.2: *JavaScript ES6 - Fluxo de exceção e Objetos*
-- [x] 7.3: *Primeiros passos em Jest*
-- [x] 7.4: *Projeto - JavaScript Testes Unitários*
-
+- [x] 7.3: *Primeiros passos em Jest*<<<<<<< HEAD
 ##### Bloco 08: Higher Order Functions do JavaScript ES6
 - [x] 8.1: *JavaScript ES6 - Introdução a Higher Order Functions*
 - [x] 8.2: *JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort*
@@ -85,7 +83,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 
 ##### Bloco 10: Introdução à React
-- [x] 10.1: *Introdução - React*
+- [x] 10.1: *Introdução - React*<<<<<<< HEAD
 - [x] 10.1: *'Hello, world!' no React!*
 - [x] 10.2: *Componentes React*
 - [x] 10.3: *Projeto - Sistema Solar*
@@ -154,7 +152,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 21.3: *Transformando ideias em um modelo de banco de dados*
 - [x] 21.4: *Aula ao vivo + Projeto - One For All*
 
-
 ##### Bloco 22: Introdução ao desenvolvimento Web com NodeJS
 - [x] 22.1: *Intro - NodeJS*
 - [x] 22.1: *Node.js - Um motor JavaScript*
@@ -166,15 +163,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 23: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 - [x] 23.1: *Introdução - Arquitetura de Software*
-- [ ] 23.1: *Arquitetura de Software - Camada de Model*
-- [ ] 23.2: *Arquitetura de Software - Camada de Controller e Service*
-- [ ] 23.3: *Arquitetura Web - Rest e Restful*
-- [ ] 23.4: *Arquitetura de Software - Testando as Camadas*
-- [ ] 23.5: *Projeto - Store Manager*
+- [x] 23.1: *Arquitetura de Software - Camada de Model*
+- [x] 23.2: *Arquitetura de Software - Camada de Controller e Service*
+- [x] 23.3: *Arquitetura Web - Rest e Restful*
+- [x] 23.4: *Arquitetura de Software - Testando as Camadas*
+- [x] 23.5: *Projeto - Store Manager*
 
 ##### Bloco 24: NodeJS: ORM e Autenticação
-- [ ] 24.1: *Introdução - NodeJS: ORM e Autenticação*
-- [ ] 24.1: *ORM: Interface da aplicação com o banco de dados*
+- [x] 24.1: *Introdução - NodeJS: ORM e Autenticação*
+- [x] 24.1: *ORM: Interface da aplicação com o banco de dados*
 - [ ] 24.2: *ORM: Associations*
 - [ ] 24.3: *JWT - (JSON Web Token)*
 - [ ] 24.4: *Testando APIs com Testes de Integração*
