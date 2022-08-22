@@ -14,3 +14,5 @@ const Book = (sequelize, DataTypes) => {
   });
   return Book;
 }
+
+module.exports = Book;

@@ -4,7 +4,7 @@ Esse repositório foi feito para conter todos os exercícios feitos por mim (*[A
 
 *"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."*
 
-O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+O programa conta com mais de 1.500 horas de <<<<<<< HEADaulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
 É por aqui que vou acompanhar minha evolução e desenvolvimento. A cada reposiório e exercício uma nova experiência.
 
@@ -43,7 +43,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5.2: *JavaScript - *Trabalhando com elementos*
 - [x] 5.3: *JavaScript - Eventos*
 - [x] 5.4: *JavaScript - Web Storage*
-- [x] 5.5: *Fundamentos - JavaScript - Projetos*
+- [x] 5.5: *Fundamentos - JavaScript - Proje<<<<<<< HEADtos*
 - [x] 5.5: *Projeto - Arte com Pixels*
 - [x] 5.6: *Projeto - Lista de tarefas*
 - [ ] 5.7: *(Bônus) Projeto - Meme Generator*
@@ -62,9 +62,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
 - [x] 7.1: *JavaScript ES6 - let, const, arrow functions e template literals*
 - [x] 7.2: *JavaScript ES6 - Fluxo de exceção e Objetos*
-- [x] 7.3: *Primeiros passos em Jest*
-- [x] 7.4: *Projeto - JavaScript Testes Unitários*
-
+- [x] 7.3: *Primeiros passos em Jest*<<<<<<< HEAD
 ##### Bloco 08: Higher Order Functions do JavaScript ES6
 - [x] 8.1: *JavaScript ES6 - Introdução a Higher Order Functions*
 - [x] 8.2: *JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort*
@@ -85,7 +83,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 
 ##### Bloco 10: Introdução à React
-- [x] 10.1: *Introdução - React*
+- [x] 10.1: *Introdução - React*<<<<<<< HEAD
 - [x] 10.1: *'Hello, world!' no React!*
 - [x] 10.2: *Componentes React*
 - [x] 10.3: *Projeto - Sistema Solar*
@@ -157,7 +155,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 22: Introdução ao desenvolvimento Web com NodeJS
 - [x] 22.1: *Intro - NodeJS*
 - [x] 22.1: *Node.js - Um motor JavaScript*
-- [x]  22.2: *Node.js - Fluxo Assíncrono*
+- [x] 22.2: *Node.js - Fluxo Assíncrono*
 - [x] 22.3: *Mocha, Chai e Sinon - Testes de Back-end com Node.js*
 - [x] 22.4: *Express: HTTP com Node.js*
 - [x] 22.5: *Express: Middlewares*
