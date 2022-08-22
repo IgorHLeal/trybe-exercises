@@ -1,5 +1,5 @@
 const express = require('express');
-// const BookController = require('./controllers/BookController');
+const BookController = require('./controllers/BooksController');
 
 const booksRouter = require('./routers/Books/booksRouter')
 
@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-// app.get('/books', BookController.getAll);
+app.get('/books', BookController.getAll);
 app.use('/books', booksRouter);
 
 app.listen(PORT, () => console.log(`Ouvindo na porta ${PORT}!`));

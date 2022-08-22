@@ -11,6 +11,10 @@ module.exports = {
       },
       title: {
         allowNull: false,
+        type: Sequelize.STRING
+      },
+      author: {
+        allowNull: false,
         type: Sequelize.STRING,
       },
       pageQuantity: {
@@ -31,6 +35,6 @@ module.exports = {
   },
 
   async down (queryInterface, Sequelize) {
-    await queryInterface.dropTable('books');
+    await queryInterface.dropTable('Books');
   }
 };
