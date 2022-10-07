@@ -1,0 +1,31 @@
+h1{
+    color: orange;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+ul{
+    background-color:yellowgreen;
+    font-family: monospace;
+    line-height: 20px;
+}
+.cor-de-fundo{
+    background-color:darkgray;
+}
+p{
+    font-weight: 600;
+    font-size: 3em;
+    font-family: Helvetica;
+    font-style: italic;
+}
+#yellow-font {
+    background-color: yellow;
+}
+#red-font {
+    background-color: red;
+}
+#brown-font {
+    background-color: brown;
+}
+body{
+    font-size: 15px;
+}
