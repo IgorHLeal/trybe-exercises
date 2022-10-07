@@ -61,8 +61,10 @@ O programa conta com mais de 1.500 horas de <<<<<<< HEADaulas presenciais e onli
 
 ##### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
 - [x] 7.1: *JavaScript ES6 - let, const, arrow functions e template literals*
-- [x] 7.2: *JavaScript ES6 - Fluxo de exceção e Objetos*
-- [x] 7.3: *Primeiros passos em Jest*<<<<<<< HEAD
+- [x] 7.2: *JavaScript ES6 - Objects*
+- [x] 7.3: *Primeiros passos em Jest*
+- [x] 7.4: *Projeto - JavaScript Testes Unitários*
+
 ##### Bloco 08: Higher Order Functions do JavaScript ES6
 - [x] 8.1: *JavaScript ES6 - Introdução a Higher Order Functions*
 - [x] 8.2: *JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort*
@@ -83,7 +85,6 @@ O programa conta com mais de 1.500 horas de <<<<<<< HEADaulas presenciais e onli
 
 
 ##### Bloco 10: Introdução à React
-- [x] 10.1: *Introdução - React*<<<<<<< HEAD
 - [x] 10.1: *'Hello, world!' no React!*
 - [x] 10.2: *Componentes React*
 - [x] 10.3: *Projeto - Sistema Solar*
@@ -129,91 +130,90 @@ O programa conta com mais de 1.500 horas de <<<<<<< HEADaulas presenciais e onli
 - [x] 18.1: *Projeto - App de Receitas*
 
 
-### Módulo 03 - Desenvolvimento Back-end
+### Módulo 04 - Desenvolvimento Back-end
 
 ##### Bloco 19: Docker: Utilizando Containers
-- [x] 19.1: *Introdução - Back-end*
 - [x] 19.1: *Utilizando Containers - Docker*
-- [x] 19.2: *Manipulação e criação de Imagens no Docker*
+- [x] 19.2: *Manipulando imagens no Docker*
 - [x] 19.3: *Orquestrando Containers com Docker Compose*
-- [x] 19.4: *Projeto - Docker Todo-List*
+- [x] 19.4: *Projeto - Docker Todo List*
 
-##### Bloco 20: Introduão à SQL
-- [x] 20.1: *Introdução - Bancos de dados relacionais*
+
+##### Bloco 20: Introdução à SQL
 - [x] 20.1: *Banco de dados SQL*
 - [x] 20.2: *Encontrando dados em um banco de dados*
 - [x] 20.3: *Filtrando dados de forma específica*
 - [x] 20.4: *Manipulando tabelas*
 - [x] 20.5: *Projeto - All For One*
 
-##### Bloco 21: Funções SQL, JOINS e Normalização
+##### Bloco 21: Funções SQL, Joins e Subqueries
 - [x] 21.1: *Funções mais usadas no SQL*
-- [x] 21.2: *Descomplicando JOINs*
-- [x] 21.3: *Transformando ideias em um modelo de banco de dados*
-- [x] 21.4: *Aula ao vivo + Projeto - One For All*
+- [x] 21.2: *Descomplicando JOINs, UNIONs e Subqueries*
+- [x] 21.3: *Stored Routines & Stored Functions*
+- [x] 21.4: *Projeto - One for All*
 
 ##### Bloco 22: Introdução ao desenvolvimento Web com NodeJS
 - [x] 22.1: *Intro - NodeJS*
-- [x] 22.1: *Node.js - Um motor JavaScript*
+- [x] 22.1: *Node.js - Introdução*
 - [x] 22.2: *Node.js - Fluxo Assíncrono*
-- [x] 22.3: *Mocha, Chai e Sinon - Testes de Back-end com Node.js*
+- [x] 22.3: *Testes com NodeJS*
 - [x] 22.4: *Express: HTTP com Node.js*
 - [x] 22.5: *Express: Middlewares*
-- [x] 22.6: *Atividades + Projeto - Talker Manager*
+- [x] 22.6: *Projeto - Talker Manager*
 
-##### Bloco 23: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
-- [x] 23.1: *Introdução - Arquitetura de Software*
+##### Bloco 23: Arquitetura de Software: Model, Service e Controller
 - [x] 23.1: *Arquitetura de Software - Camada de Model*
-- [x] 23.2: *Arquitetura de Software - Camada de Controller e Service*
-- [x] 23.3: *Arquitetura Web - Rest e Restful*
-- [x] 23.4: *Arquitetura de Software - Testando as Camadas*
-- [x] 23.5: *Projeto - Store Manager*
+- [x] 23.2: *Arquitetura de Software - Camada de Service*
+- [x] 23.3: *Arquitetura de Software - Camada de Controller*
+- [x] 23.4: *Projeto - Store Manager*
 
-##### Bloco 24: NodeJS: ORM e Autenticação
-- [x] 24.1: *Introdução - NodeJS: ORM e Autenticação*
-- [x] 24.1: *ORM: Interface da aplicação com o banco de dados*
-- [x] 24.2: *ORM: Associations*
-- [x] 24.3: *JWT - (JSON Web Token)*
-- [x] 24.4: *Testando APIs com Testes de Integração*
-- [x] 24.5: *Projeto - API de Blogs*
+
+##### Bloco 24: Node.js: ORM e Autenticação
+- [x] 24.1: *ORM - Interface da aplicação com o banco de dados*
+- [x] 24.2: *ORM - Associations 1:1 e 1:N*
+- [x] 24.3: *ORM - Associations N:N e Transactions*
+- [ ] 24.4: *JWT: Jason Web Token*
+- [x] 24.4: *Projeto - Store Manager*
 
 ##### Bloco 25: Deployment
-- [x] 25.1: *Introdução - Deploy*
 - [x] 25.1: *Infraestrutura - Deploy com Heroku*
 - [x] 25.2: *Deploy Docker & Heroku*
 - [x] 25.3: *Projeto - Stranger Things*
 
-##### Bloco 26: TypeScript
-- [x] 26.1: *Introdução - TypeScript*
-- [x] 26.1: *Introdução ao TypeScript*
-- [x] 26.2: *Tipagem Estática e Generics*
-- [x] 26.3: *Express com TypeScript*
-- [x] 26.4: *Projeto - Trybe Smith*
 
-##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
-- [x] 27.1: *Introdução à Orientação a Objetos*
+##### Bloco 26: Introdução a TypeScript
+- [x] 26.1: *Introdução ao TypeScript*
+- [x] 26.2: *Tipagem estática e Generics*
+- [x] 26.3: *Express com TypeScript*
+- [x] 26.4: *Projeto - Trybesmith*
+
+
+##### Bloco 27: Programação Orientada à Objetos (POO) e SOLID
+- [x] 27.1: *Introdução a Orientação à Objetos*
 - [x] 27.2: *Herança e Interfaces*
 - [x] 27.3: *Polimorfismo*
-- [x] 27.4: *SOLID - Introdução e Princípios S, O e D*
-- [x] 27.5: *SOLID - Princípios L e I*
-- [ ] 27.6: *Projeto - Trybers and Dragons*
+- [x] 27.4: *SOLID: Introdução e Princípios S, O e D*
+- [x] 27.5: *SOLID: Princípios L e I*
+- [x] 27.6: *Projeto - Trybers and Dragons*
 
-##### Bloco 28: Projeto TFC - Trybe Futebol Clube
-- [ ] 28.1: *Projeto - Jogo de Trivia*
+
+##### Bloco 28: Projeto Trybe Futebol Club
+- [x] 28.1: *Projeto - *Trybe Futebol Club*
+
 
 ##### Bloco 29: Introdução ao MongoDB
-- [ ] 29.1: *Introdução - NoSQL*
-- [ ] 29.1: *MongoDB - Introdução*
+- [x] 29.1: *MongoDB - Introdução*
 - [ ] 29.2: *Filter Operators*
 - [ ] 29.3: *Operadores de consulta*
 - [ ] 29.4: *Updates Simples*
 - [ ] 29.5: *Updates Complexos - Arrays*
 - [ ] 29.6: *Projeto - Commerce*
 
+
 ##### Bloco 30: MongoDB com Node.js e POO
-- [ ] 30.1: *MongoDB e arquitetura MSC*
-- [ ] 30.2: *MongoDB e POO*
-- [ ] 30.3: *Projeto - Car Shop*
+- [ ] 30.1: *Mongoose e arquitetura MSC (Camada Model)*
+- [ ] 30.2: *Mongoose e arquitetura MSC (Camada Service e Controller)*
+- [ ] 30.3: *Projeto - Carshop*
 
 ##### Bloco 31: Projeto - App de Delivery
 - [ ] 31.1: *Projeto - App de Delivery*
@@ -223,25 +223,30 @@ O programa conta com mais de 1.500 horas de <<<<<<< HEADaulas presenciais e onli
 - [ ] 32.2: *Dia 2*
 
 
+##### Bloco 32: MasterClass - VPS, CI/CD
+- [ ] 32.1: *VPS*
+- [ ] 32.2: *Dia 2*
+
+
 ### Módulo 04 - Ciência da computação
 
 ##### Bloco 33: Introdução à Python
-- [ ] 33.1: *Introdução - Ciência da Computação*
 - [ ] 33.1: *Aprendendo Python*
 - [ ] 33.2: *Entrada e Saída de Dados*
 - [ ] 33.3: *Testes*
 - [ ] 33.4: *Projeto - Job Insights*
 
 ##### Bloco 34: Padrões de Projeto
-- [ ] 34.1: *POO EM Python*
+- [ ] 34.1: *P.O.O em Python*
 - [ ] 34.2: *Padrões - Iterator, Adapter, Strategy*
 - [ ] 34.3: *Padrões - Decorator, Observer, Factory*
 - [ ] 34.4: *Projeto - Relatórios de Estoque*
 
+
 ##### Bloco 35: Redes e Raspagem de Dados
 - [ ] 35.1: *Arquitetura de redes*
-- [ ] 35.2: *Redes de computadores, ferramentas e segurança*
-- [ ] 35.3: *Raspagem de Dados*
+- [ ] 35.2: *Raspagem de Dados*
+- [ ] 35.3: *Redes de computadores, ferramentas e segurança*
 - [ ] 35.4: *Projeto - Tech news*
 
 ##### Bloco 36: Algoritmos
@@ -250,17 +255,17 @@ O programa conta com mais de 1.500 horas de <<<<<<< HEADaulas presenciais e onli
 - [ ] 36.3: *Algoritmos de ordenação e busca*
 - [ ] 36.4: *Projeto - Algoritmos*
 
-##### Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Sets
+##### Bloco 37: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
 - [ ] 37.1: *Arquitetura de Computadores*
 - [ ] 37.2: *Arrays*
-- [ ] 37.3: *Hashmap e Dict*
-- [ ] 37.4: *Set*
-- [ ] 37.5: *Projeto - Restaurant Orders*
+- [ ] 37.3: *Nó e Listas Encadeadas*
+- [ ] 37.4: *Pilhas e Filas*
+- [ ] 37.5: *Projeto - TING - Trybe Is Not Google*
 
-##### Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas
-- [ ] 38.1: *Nó e Listas Encadeadas*
-- [ ] 38.2: *Pilhas e Filas*
-- [ ] 38.3: *Projeto - TING - Trybe Is Not Google*
 
+##### Bloco 38: Estrutura de Dados II: Hashmaps e Sets
+- [ ] 38.1: *Hashmap e Dict*
+- [ ] 38.2: *Set*
+- [ ] 38.3: *Projeto - Restaurant Orders*
 
 ##### [...]
