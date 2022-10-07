@@ -1,24 +1,25 @@
 ### Trybe
 
-Esse repositório foi feito para conter todos os exercícios feitos por *[Igor Leal] (https://www.linkedin.com/in/igorleal9296/)* ao longo do curso de desenvolvimento web na *[Trybe] (https://www.betrybe.com/)*.
+Esse repositório foi feito para conter todos os exercícios feitos por mim (*[Acesse aqui meu Linkedin](https://www.linkedin.com/in/igorleal9296/)*) ao longo do curso de desenvolvimento web na *[Trybe](https://www.betrybe.com/)*.
 
 *"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."*
 
-O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+O programa conta com mais de 1.500 horas de <<<<<<< HEADaulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
 É por aqui que vou acompanhar minha evolução e desenvolvimento. A cada reposiório e exercício uma nova experiência.
 
 ### Módulo 01 - Fundamentos do desenvolvimento web
 
-##### Bloco 1: Introdução - Unix & Bash
+##### Bloco 1: Unix & Bash
 
-- [x] 1-3: *Unix & Shell- Part 1*
-- [x] 1-4: *Unix & Shell- Part 2*
+- [x] 1-3: *Introdução - Unix & Shell*
+- [x] 1-3: *Unix & Bash- Part 1*
+- [x] 1-4: *Unix & Bash- Part 2*
 
-##### Bloco 2: Git & GitHub
+##### Bloco 2: Git, GitHub & Internet
 
-- [x] 2-1: *O que são e para que serve?*
-- [x] 2-2: *Entendendo os comandos*
+- [x] 2-1: *Git & GitHub - O que é e para que serve?*
+- [x] 2-2: *Git & GitHub - Entendendo os comandos*
 - [x] 2-3: *Internet - Entendendo como ela funciona*
 
 ##### Bloco 03: Introdução à HTML e CSS
@@ -42,7 +43,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5.2: *JavaScript - *Trabalhando com elementos*
 - [x] 5.3: *JavaScript - Eventos*
 - [x] 5.4: *JavaScript - Web Storage*
-- [x] 5.5: *Fundamentos - JavaScript - Projetos*
+- [x] 5.5: *Fundamentos - JavaScript - Proje<<<<<<< HEADtos*
 - [x] 5.5: *Projeto - Arte com Pixels*
 - [x] 5.6: *Projeto - Lista de tarefas*
 - [ ] 5.7: *(Bônus) Projeto - Meme Generator*
@@ -72,18 +73,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 8.5: *JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais*
 - [x] 8.6: *Projeto - Zoo functions*
 
+
+### Módulo 02 - Desenvolvimento Front-end
+
 ##### Bloco 09: JavaScript e Testes Assíncronos
+- [x] 9.1: *Introdução - Front-end*
 - [x] 9.1: *JavaScript Assíncrono e Callbacks*
 - [x] 9.2: *JavaScript Assíncrono - Fetch API e async/await*
 - [x] 9.3: *Jest - Testes Assíncronos*
 - [x] 9.4:  *Projeto - Carrinho de Compras*
 
 
-### Módulo 02 - Desenvolvimento Front-end
-
 ##### Bloco 10: Introdução à React
-- [x] 10.1: *Introdução - Front-end*
-- [x] 10.1: *Introdução - React*
 - [x] 10.1: *'Hello, world!' no React!*
 - [x] 10.2: *Componentes React*
 - [x] 10.3: *Projeto - Sistema Solar*
@@ -202,11 +203,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 29: Introdução ao MongoDB
 - [x] 29.1: *MongoDB - Introdução*
-- [x] 29.2: *Filter Operators*
-- [x] 29.3: *Operadores de consulta*
-- [x] 29.4: *Updates Simples*
-- [x] 29.5: *Updates Complexos - Arrays*
-- [x] 29.6: *Projeto - Commerce*
+- [ ] 29.2: *Filter Operators*
+- [ ] 29.3: *Operadores de consulta*
+- [ ] 29.4: *Updates Simples*
+- [ ] 29.5: *Updates Complexos - Arrays*
+- [ ] 29.6: *Projeto - Commerce*
 
 
 ##### Bloco 30: MongoDB com Node.js e POO
@@ -216,6 +217,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 31: Projeto - App de Delivery
 - [ ] 31.1: *Projeto - App de Delivery*
+
+##### Bloco 32: MasterClass - VPS, CI/CD
+- [ ] 32.1: *Dia 1 - VPS*
+- [ ] 32.2: *Dia 2*
 
 
 ##### Bloco 32: MasterClass - VPS, CI/CD
@@ -231,13 +236,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 33.3: *Testes*
 - [ ] 33.4: *Projeto - Job Insights*
 
-
 ##### Bloco 34: Padrões de Projeto
 - [ ] 34.1: *P.O.O em Python*
 - [ ] 34.2: *Padrões - Iterator, Adapter, Strategy*
 - [ ] 34.3: *Padrões - Decorator, Observer, Factory*
 - [ ] 34.4: *Projeto - Relatórios de Estoque*
-
 
 
 ##### Bloco 35: Redes e Raspagem de Dados
