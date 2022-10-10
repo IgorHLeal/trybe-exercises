@@ -1,3 +1,8 @@
 use('aula_29_2');
 
-db.filmes.find();
+db.filmes.find({
+  $nor: [
+    {diretor:  'Michael Bay'},
+    {'avaliacao.ruim': {$eq: 10} }
+  ]
+});
