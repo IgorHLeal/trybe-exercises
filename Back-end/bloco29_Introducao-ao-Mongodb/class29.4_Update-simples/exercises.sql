@@ -64,7 +64,7 @@ db.movies.updateOne(
   { title: { $eq: 'Godzilla' } },
   { 
     $max: { imdbRating: 8.6 },
-    $set: { 'category.1': 'thriller'} 
+    $set: { 'category.1': 'thriller' } 
   },
 );
 
@@ -103,4 +103,3 @@ db.movies.updateMany(
     $max: { imdbRating: 17 },
   },
 );
-
