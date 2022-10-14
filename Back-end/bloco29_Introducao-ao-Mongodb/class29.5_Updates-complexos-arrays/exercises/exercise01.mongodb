@@ -2,7 +2,14 @@
 
 use ('cinema');
 
+db.movies.updateOne(
+  { title: { $eq: 'Batman' } },
+  {
+    $push: {
+      category: 'superhero',
+    },
+  },
+);
 
-
-
+db.movies.find();
 
