@@ -14,3 +14,28 @@
 
 
 use ('cinema');
+
+db.movies.updateOne(
+  { title: { $eq: 'Home Alone' } },
+  {
+    $push: {
+      cast: {
+        $each: [
+          {
+            "actor": "Macaulay Culkin",
+            "character": "Kevin"
+          },
+          {
+            "actor": "Joe Pesci",
+            "character": "Harry"
+          },
+          {
+            "actor": "Daniel Stern"
+          },
+        ],
+      },
+    },
+  },
+);
+
+db.movies.find();
