@@ -1,0 +1,14 @@
+/* 🚀 Exercício 3: Remova a categoria "action" do filme Batman. */
+
+use ('cinema');
+
+db.movies.updateOne(
+  { title: { $eq: 'Batman' } },
+  {
+    $pull: {
+      category: 'action',
+    },
+  },
+);
+
+db.movies.find();

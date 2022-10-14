@@ -1,0 +1,14 @@
+/* 🚀 Exercício 5: Remova o último elemento do array category do filme Batman. */
+
+use ('cinema');
+
+db.movies.updateOne(
+  { title: { $eq: 'Batman' } },
+  {
+    $pop: {
+      category: 1,
+    },
+  },
+);
+
+db.movies.find();

@@ -1,0 +1,17 @@
+/* Exercício 2: Utilizando o modificador $each, adicione as categorias "villain" e "comic-based" ao filme Batman. */
+
+use ('cinema');
+
+db.movies.updateOne(
+  { title: { $eq: 'Batman' } },
+  {
+    $push: {
+      category: {
+        $each: [ 'villain', 'comic-based'],
+      },
+    },
+  },
+);
+
+db.movies.find();
+
