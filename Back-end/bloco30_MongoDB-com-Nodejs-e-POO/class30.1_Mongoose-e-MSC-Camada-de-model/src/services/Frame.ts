@@ -1,7 +1,7 @@
-import IService from '../interfaces/IService';
+import { ErrorTypes } from '../controllers/errors/catalog';
 import IFrame, { FrameZodSchema } from '../interfaces/Frame';
 import IModel from '../interfaces/IModel';
-import { ErrorTypes } from '../errors/catalog';
+import IService from '../interfaces/IService';
 
 class FrameService implements IService<IFrame> {
   // quando fazemos IService<IFrame> acima 
