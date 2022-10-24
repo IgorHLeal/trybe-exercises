@@ -54,14 +54,15 @@
 
 - [x] _Projeto - Docker Todo-List— Nota: 100%_
 - [x] _Projeto - All for One — Nota: 100%_
-- [ ] _Projeto - One for All — Não iniciado_
-- [ ] _Projeto - Talk Manager — Não iniciado_
-- [ ] _Projeto - Store Manager — Não iniciado_
-- [ ] _Projeto - API de Blogs — Não iniciado_
-- [ ] _Projeto - Stranger Things — Não iniciado_
-- [ ] _Projeto - Trybe Smith — Não iniciado_
-- [ ] _Projeto - Trybers and Dragons — Não iniciado_
-- [ ] _Projeto - TFC - Trybe Futebol Clube — Não iniciado_
-- [ ] _Projeto - Commerce — Não iniciado_
-- [ ] _Projeto - Car Shop — Não iniciado_
+- [x] _Projeto - One for All — Nota: 100%_
+- [x] _Projeto - Talk Manager — Nota: 100%_
+- [x] _Projeto - Store Manager — Nota: 92%_
+- [x] _Projeto - API de Blogs — Nota: 80%_
+- [x] _Projeto - Stranger Things - Front-end — Nota: 100%_
+- [x] _Projeto - Stranger Things - Back-end — Nota: 100%_
+- [x] _Projeto - Trybe Smith — Nota: 100%_
+- [x] _Projeto - Trybers and Dragons — Nota: 100%_
+- [x] _Projeto - TFC - Trybe Futebol Clube — Nota: 91.18%_
+- [x] _Projeto - Commerce — Nota: 100%_
+- [x] _Projeto - Car Shop — Nota: 100%_
 - [ ] _Projeto - App de Delivery — Não iniciado_

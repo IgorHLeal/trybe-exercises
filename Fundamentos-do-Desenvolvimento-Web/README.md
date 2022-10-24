@@ -44,4 +44,4 @@ Aprendi sobre:</p>
 - [x] _Projeto - TrybeWarts (Em Grupo) — Nota: 100%_
 - [x] _Projeto - JavaScript Unit Tests — Nota: 90%_
 - [x] _Projeto - Zoo Functions — Nota: 80%_
-- [x] _Projeto - Shopping Cart — Não iniciado_
+- [x] _Projeto - Shopping Cart — Nota: 100%_
