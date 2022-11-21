@@ -216,15 +216,10 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [x] 30.3: *Projeto - Carshop*
 
 ##### Bloco 31: Projeto - App de Delivery
-- [ ] 31.1: *Projeto - App de Delivery*
+- [x] 31.1: *Projeto - App de Delivery*
 
 ##### Bloco 32: MasterClass - VPS, CI/CD
-- [ ] 32.1: *Dia 1 - VPS*
-- [ ] 32.2: *Dia 2*
-
-
-##### Bloco 32: MasterClass - VPS, CI/CD
-- [ ] 32.1: *VPS*
+- [x] 32.1: *VPS*
 - [ ] 32.2: *Dia 2*
 
 
