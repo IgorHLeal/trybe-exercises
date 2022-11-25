@@ -1,0 +1,8 @@
+use('aula_29_2');
+
+db.filmes.find({
+  $or: [
+    {ano: { $gt: 2000}},
+    {'avaliacao.bom': {$gte: 8} }
+  ]
+});
