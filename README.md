@@ -226,8 +226,8 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 ### Módulo 04 - Ciência da computação
 
 ##### Bloco 33: Introdução à Python
-- [ ] 33.1: *Aprendendo Python*
-- [ ] 33.2: *Entrada e Saída de Dados*
+- [x] 33.1: *Aprendendo Python*
+- [x] 33.2: *Entrada e Saída de Dados*
 - [ ] 33.3: *Testes*
 - [ ] 33.4: *Projeto - Job Insights*
 
