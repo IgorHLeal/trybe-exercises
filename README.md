@@ -220,7 +220,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 
 ##### Bloco 32: MasterClass - VPS, CI/CD
 - [x] 32.1: *VPS*
-- [ ] 32.2: *Dia 2*
+- [x] 32.2: *Dia 2*
 
 
 ### Módulo 04 - Ciência da computação
@@ -233,22 +233,22 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 
 ##### Bloco 34: Padrões de Projeto
 - [x] 34.1: *P.O.O em Python*
-- [ ] 34.2: *Padrões - Iterator, Adapter, Strategy*
-- [ ] 34.3: *Padrões - Decorator, Observer, Factory*
-- [ ] 34.4: *Projeto - Relatórios de Estoque*
+- [x] 34.2: *Padrões - Iterator, Adapter, Strategy*
+- [x] 34.3: *Padrões - Decorator, Observer, Factory*
+- [x] 34.4: *Projeto - Relatórios de Estoque*
 
 
 ##### Bloco 35: Redes e Raspagem de Dados
-- [ ] 35.1: *Arquitetura de redes*
-- [ ] 35.2: *Raspagem de Dados*
-- [ ] 35.3: *Redes de computadores, ferramentas e segurança*
-- [ ] 35.4: *Projeto - Tech news*
+- [x] 35.1: *Arquitetura de redes*
+- [x] 35.2: *Raspagem de Dados*
+- [x] 35.3: *Redes de computadores, ferramentas e segurança*
+- [x] 35.4: *Projeto - Tech news*
 
 ##### Bloco 36: Algoritmos
-- [ ] 36.1: *Complexidade de Algoritmos*
-- [ ] 36.2: *Recursividade e Estratégias para solução de problemas*
-- [ ] 36.3: *Algoritmos de ordenação e busca*
-- [ ] 36.4: *Projeto - Algoritmos*
+- [x] 36.1: *Complexidade de Algoritmos*
+- [x] 36.2: *Recursividade e Estratégias para solução de problemas*
+- [x] 36.3: *Algoritmos de ordenação e busca*
+- [x] 36.4: *Projeto - Algoritmos*
 
 ##### Bloco 37: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
 - [ ] 37.1: *Arquitetura de Computadores*
